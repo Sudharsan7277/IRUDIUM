@@ -606,7 +606,14 @@ nav .hamburger .bar {
   padding: 0 2rem;
   padding-bottom: 30px;
 }
-
+@media (min-width: 576px) {
+  .container{padding-bottom:20px;}
+  
+ }
+@media (min-width: 800px) { 
+  .container{padding-bottom:20px;}
+  
+ }
 .section-title {
   font-size: 3rem;
   font-weight: 800;
