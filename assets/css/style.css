@@ -692,7 +692,7 @@ nav .hamburger .bar {
 .project-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* Changed from fill to contain */
   transition: transform 0.5s ease;
 }
 
