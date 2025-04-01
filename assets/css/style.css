@@ -480,6 +480,12 @@ nav .hamburger .bar {
 
 /* Responsive Design for Mobile Devices */
 @media (max-width: 768px) {
+  nav .logo img {
+    width: 150px;
+    margin-left: auto;
+    
+  }
+
   nav .nav-links {
       display: none;
   }

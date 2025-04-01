@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -28,6 +29,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     
+
     background-size: cover;
 }
 body::before{
@@ -261,6 +263,11 @@ nav {
   
   /* Responsive Design for Mobile Devices */
   @media (max-width: 768px) {
+    nav .logo img {
+        width: 150px;
+        margin-left: auto;
+        
+      }
     nav .nav-links {
         display: none;
     }
@@ -283,7 +290,7 @@ nav {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 0px 10% 0px 10%;
     position: relative;
     overflow: hidden;
 }
@@ -367,7 +374,7 @@ p{
 
 /* Service Showcase */
 .service-showcase {
-    padding: 150px 10%;
+    padding: 0px 10%;
     background: rgba(0, 0, 0, 0.6);
     
 }
@@ -710,7 +717,7 @@ p{
 
 /* How It Works Section */
 .how-it-works {
-    padding: 100px 10%;
+    padding: 15px 10%;
     background:  rgba(0, 0, 0, 0.6);
     position: relative;
 }
