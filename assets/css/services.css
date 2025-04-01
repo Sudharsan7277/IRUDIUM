@@ -13,7 +13,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -374,7 +373,7 @@ p{
 
 /* Service Showcase */
 .service-showcase {
-    padding: 0px 10%;
+    padding: 50px 30px;
     background: rgba(0, 0, 0, 0.6);
     
 }
@@ -651,7 +650,7 @@ p{
 }
  /* Key Features Section */
  .key-features {
-    padding: 100px 10%;
+    padding: 100px 10px;
     background:  rgba(0, 0, 0, 0.6);
     position: relative;
     overflow: hidden;
@@ -779,10 +778,9 @@ p{
 
 /* Why Choose Us Section */
 .why-choose-us {
-    padding: 100px 10%;
+    padding: 100px 10px;
     background:  rgba(0, 0, 0, 0.6);
 }
-
 .advantages-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
